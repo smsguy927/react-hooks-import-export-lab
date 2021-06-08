@@ -1,4 +1,8 @@
 import React from "react";
+import {
+  username,
+  city
+} from "/home/smsguy927/phase2/components-props/react-hooks-import-export-lab/src/data/user.js";
 
 function Home() {
   return (
@@ -9,3 +13,5 @@ function Home() {
     </div>
   );
 }
+
+export default Home;
